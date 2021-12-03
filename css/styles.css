@@ -9,7 +9,8 @@ nav{
 	display: flex;
 	width: 100%;
 	background: #d5361d;
-	position: relative;
+	position: sticky;
+	top: 0;
 	justify-content: space-between;
 	text-align: right;
 	padding: 15px 30px;

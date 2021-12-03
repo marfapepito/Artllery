@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+nav{
+	display: flex;
+	width: 100%;
+	background: #d5361d;
+	position: relative;
+	justify-content: space-between;
+	text-align: right;
+	padding: 15px 30px;
+}
+
+logo .img{
+	text-align: left;
+}
+
+nav ol{
+	display: flex;
+	list-style: none;
+	margin: auto 0;
+}
+
+nav .search_box{
+	display: flex;
+	margin: auto 0;
+	height: 35px;
+	line-height: 35px;
+}
+
+nav .search_box input{
+	border: none;
+	outline: none;
+	background: #ffffff;
+	height: 100%;
+	padding: 0 10px;
+	font-size: 20px;
+	width: 350px;
+}
+
+*{box-sizing: border-box}
+
+body, html{
+	height: 100%;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.tablink{
+	background-color: #d5361d;
+	color: #ffffff;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 20px;
+	width: 50%;
+}
+
+.tablink:hover {
+	background-color: #f5a52d;
+}
+
+.tabcontent {
+	color: #000000;
+	display: none;
+	padding: 30px 20px;
+	height: 100%;
+}
+
+#Artists {background-color: #ffffff;}
+#Artworks {background-color: #ffffff;}
+#Exhibitions {background-color: #ffffff;}
+#Collections {background-color: #ffffff;}
+#Profile {background-color: #ffffff;}
+#About {background-color: #ffffff;}
+
+.artworks{
+	margin: 20px;
+	border: 10px solid #d4a29c;
+	float: left;
+	width: auto;
+}
+
+.artworks img{
+	width: auto;
+	height: auto;
+	cursor: pointer;
+}
+
+.artworks table{
+	padding: 40px 0 30px 0;
+	background-color: #ffffff;
+}
+
+.collections{
+	padding: 40px 0 30px 0;
+	background-color: #ffffff;
+}
+
+.desc{
+	padding: 35px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.descp{
+	font-family: sans-serif;
+	font-size: 1em;
+	text-align: center; 
+	background-color: #bfcfc7;
+}
+
+
+.descp th{
+	font-size: 2em;
+	padding: 13px;
+}
+
+.descp img{
+	padding: 30px 10px 13px 14px;
+	cursor: pointer;
+}
+
+.descn{
+	font-family: sans-serif;
+	font-size: 1em;
+	text-align: center;
+	background-color: #f1d6bc;
+}
+
+.descn th{
+	font-size: 2em;
+	padding: 13px;
+}
+
+.descn img{
+	padding: 30px 5px 13px 14px;
+	cursor: pointer;
+}
+
+.descl{
+	font-family: sans-serif;
+	font-size: 1em;
+	text-align: center;
+	background-color: #bfccd0;
+}
+
+.descl th{
+	font-size: 2em;
+	padding: 13px;
+}
+
+.descl img{
+	padding: 30px 7px 13px 16px;
+	cursor: pointer;
+}
+
+.exhibitions{
+	padding: 19px 10px 30px 10px;
+	background-color: #ffffff;
+	margin: 20px;
+	border: 0 0 0 0;
+	float: left;
+	width: auto;
+}
+
+.exhibitions img{
+	width: auto;
+	height: auto;
+	cursor: pointer;
+	padding: 30x 0 30px 0;
+	background-color: #ffffff;
+}
+
+.descr{
+	padding: 35px 0 35px 0;
+	text-align: center;
+	cursor: pointer;
+}

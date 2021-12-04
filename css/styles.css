@@ -8,7 +8,7 @@
 nav{
 	display: flex;
 	width: 100%;
-	background: #b83a01;
+	background: #ff6961;
 	position: sticky;
 	top: 0;
 	justify-content: space-between;
@@ -52,8 +52,8 @@ body, html{
 }
 
 .tablink{
-	background-color: #b83a01;
-	color: #ffffff;
+	background-color: #ff6961;
+	color: #000000;
 	float: left;
 	border: none;
 	outline: none;
@@ -204,4 +204,86 @@ body, html{
 .desccol img{
 	padding: 30px 7px 13px 16px;
 	cursor: pointer;
+}
+
+section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
+	padding: 5% 10% 5% 10%;
+}
+
+.profile{
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 5% 0 5%;
+}
+
+.left{
+	width: 50%;
+	height: 50%;
+	background-color: #ff6961;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px;
+	border-radius: 8px;
+	color: #ffffff;
+}
+
+.left h2{
+	font-size: 40px;
+}
+
+.left p{
+	margin: 20px 0;
+	font-weight: 500;
+	line-height: 25px;
+}
+
+.left a{
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #ffdbbe;
+	color: #000000;
+	padding: 20px 30px;
+	display: inline-block;
+	letter-spacing: 2px;
+}
+
+.right{
+	width: 50%;
+	height: 50%;
+	background-color: #ff6961;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px;
+	border-radius: 8px;
+	color: #ffffff;
+}
+
+.right h2{
+	font-size: 40px;
+}
+
+.right p{
+	margin: 20px 0;
+	font-weight: 500;
+	line-height: 25px;
+}
+
+.right a{
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #ffdbbe;
+	color: #000000;
+	padding: 20px 30px;
+	display: inline-block;
+	letter-spacing: 2px;
 }

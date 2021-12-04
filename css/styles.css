@@ -8,12 +8,12 @@
 nav{
 	display: flex;
 	width: 100%;
-	background: #d5361d;
+	background: #fcb9aa;
 	position: sticky;
 	top: 0;
 	justify-content: space-between;
 	text-align: right;
-	padding: 15px 30px;
+	padding: 13px 28px;
 }
 
 logo .img{
@@ -52,8 +52,8 @@ body, html{
 }
 
 .tablink{
-	background-color: #d5361d;
-	color: #ffffff;
+	background-color: #fcb9aa;
+	color: #000000;
 	float: left;
 	border: none;
 	outline: none;
@@ -64,7 +64,8 @@ body, html{
 }
 
 .tablink:hover {
-	background-color: #f5a52d;
+	text-transform: uppercase;
+	background-color: #ffdbbe;
 }
 
 .tabcontent {

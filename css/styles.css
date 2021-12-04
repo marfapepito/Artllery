@@ -110,6 +110,18 @@ body, html{
 	cursor: pointer;
 }
 
+.descwor{
+	font-family: sans-serif;
+	font-size: 1em;
+	text-align: center; 
+	background-color: #ffffff;
+}
+
+.descwor img{
+	padding: 0 15px 13px 20px;
+	cursor: pointer;
+}
+
 .exhibitions{
 	padding: 40px 0 30px 0;
 	background-color: #ffffff;

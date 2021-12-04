@@ -211,7 +211,7 @@ section{
 	align-items: center;
 	justify-content: center;
 	background-color: #ffffff;
-	padding: 5% 10% 5% 10%;
+	padding: 4% 5% 5% 5%;
 }
 
 .profile{
@@ -225,8 +225,8 @@ section{
 }
 
 .left{
-	width: 50%;
-	height: 50%;
+	width: 80%;
+	height: 80%;
 	background-color: #ff6961;
 	display: flex;
 	align-items: center;
@@ -238,12 +238,14 @@ section{
 
 .left h2{
 	font-size: 40px;
+	text-align: center;
 }
 
 .left p{
+	font-size: 20px;
 	margin: 20px 0;
-	font-weight: 500;
 	line-height: 25px;
+	text-align: center;
 }
 
 .left a{
@@ -254,11 +256,12 @@ section{
 	padding: 20px 30px;
 	display: inline-block;
 	letter-spacing: 2px;
+	text-align: center;
 }
 
 .right{
-	width: 50%;
-	height: 50%;
+	width: 80%;
+	height: 80%;
 	background-color: #ff6961;
 	display: flex;
 	align-items: center;
@@ -266,16 +269,19 @@ section{
 	padding: 30px;
 	border-radius: 8px;
 	color: #ffffff;
+	margin-left: 100px;
 }
 
 .right h2{
 	font-size: 40px;
+	text-align: center;
 }
 
 .right p{
+	font-size: 20px;
 	margin: 20px 0;
-	font-weight: 500;
 	line-height: 25px;
+	text-align: center;
 }
 
 .right a{
@@ -286,4 +292,5 @@ section{
 	padding: 20px 30px;
 	display: inline-block;
 	letter-spacing: 2px;
+	text-align: center;
 }

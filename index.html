@@ -22,6 +22,15 @@
 			<span class="fa fa-search"></span>
 		</div>
 	</nav>
+
+	<div id="home" class="tabhome">
+		<h2>Welcome to Artllery!</h2>
+		<br>
+		<p>The photographs on this website, as well as any samples, are only intended to be used as a guide. The following considerations should be taken into account. Due to the translation and reproduction restrictions of photography, the color in the photo may differ from the actual art piece. Artllery.com owns all of the photographs. Any photograph from this site may not be used without first obtaining explicit permission from the artist.</p>
+		<br>
+		<p>If you wish to inquire or contact our personnel, please e-mail us at:</p>
+		<p>admin@artllery.com</p>
+	</div>
 	
 	<div id="Artists" class="tabcontent">
 		<h2>ARTISTS</h2>
@@ -365,21 +374,28 @@
 		
 	<script>
 		function openPage(pageName,elmnt,color){
-		  var i, tabcontent, tablinks;
+		  var i, tabcontent, tablinks, tabhome;
+		  tabhome = document.getElementsByClassName("tabhome");
 		  tabcontent = document.getElementsByClassName("tabcontent");
+
 		  for (i = 0; i < tabcontent.length; i++){
 			tabcontent[i].style.display = "none";
 		}
+			for (i = 0; i < tabhome.length; i++){
+				tabhome[i].style.display = "none";
+			}
 		  tablinks = document.getElementsByClassName("tablink");
 		  for (i = 0; i < tablinks.length; i++){
 			tablinks[i].style.backgroundColor = "";
 		}
 		  document.getElementById(pageName).style.display = "block";
-		  elmnt.style.backgroundColor = color;
+		  if(pageName != "home"){
+			  elmnt.style.backgroundColor = color;
+		  }
 		}
 
 		function onclickAlert(){
-			alert("hello world!");
+			openPage("home", this, "none", );
 		}
 	</script>
    

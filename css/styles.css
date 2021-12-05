@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 
 @font-face {
@@ -16,12 +18,12 @@
 nav{
 	display: flex;
 	width: 100%;
-	background: #ff6961;
 	position: sticky;
 	top: 0;
 	justify-content: space-between;
 	text-align: right;
 	padding: .5% 3% .5% 3%;
+	background-color: #ffffff;
 }
 
 logo .img{
@@ -44,14 +46,18 @@ nav .search_box{
 nav .search_box input{
 	border: none;
 	outline: none;
-	background: #ffffff;
+	background: #ff6961;
+	color: #ffffff;
 	height: 100%;
 	padding: 0 10px;
 	font-size: 20px;
 	width: 350px;
+	border-radius: 8px;
 }
 
-*{box-sizing: border-box}
+nav .search_box ::placeholder{
+	color: #ffffff;
+}
 
 body, html{
 	height: 100%;
@@ -60,8 +66,8 @@ body, html{
 }
 
 .tablink{
-	background-color: #ff6961;
-	color: #000000;
+	background-color: #ffffff;
+	color: #ff6961;
 	float: left;
 	border: none;
 	outline: none;
@@ -69,13 +75,14 @@ body, html{
 	padding: 3% 3%;
 	font-size: 20px;
 	width: 50%;
+	transition: all 0.3s ease 0s;
 }
 
 .tablink:hover {
-	text-transform: uppercase;
-	background-color: #ffdbbe;
 	color:#000000;
 }
+
+.tablink:ho
 
 .tabcontent {
 	color: #000000;
@@ -96,15 +103,6 @@ body, html{
 #Collections {background-color: #ffffff;}
 #Profile {background-color: #ffffff;}
 #About {background-color: #ffffff;}
-
-#Home{
-	background-image: url("/images/home.png");
-	height: 500px;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-}
 
 .artists{
 	width: 95%;

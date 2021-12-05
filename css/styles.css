@@ -5,6 +5,14 @@
 	font-family: 'Poppins', sans-serif;
 }
 
+@font-face {
+	font-family: 'intro_script_demomedium';
+	src: url('../css/fonts/intro_script/introscriptdemo-medium-webfont.woff2') format('woff2'),
+	url('../css/fonts/intro_script/introscriptdemo-medium-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 nav{
 	display: flex;
 	width: 100%;
@@ -326,4 +334,8 @@ section{
 	margin: 0;
 	padding: 5% 0 0 5%;
 	font-size: 30px;
+}
+
+h2{
+	font-family: intro_script_demomedium;
 }

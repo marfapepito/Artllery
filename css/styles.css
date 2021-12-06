@@ -16,6 +16,7 @@
 	font-style: normal;
 }
 
+/* Navigation */
 nav{
 	background-color: #41444B;
 	display: flex;
@@ -44,6 +45,7 @@ nav ol{
 	width: 50%;
 }
 
+/* Search Bar */
 ol .search_box{
 	display: flex;
 	height: 35px;
@@ -68,6 +70,7 @@ nav .search_box ::placeholder{
 	color: #ffffff;
 }
 
+/* Tab Links */
 .tablink{
 	background-color: #41444B;
 	border: none;
@@ -99,6 +102,7 @@ nav .search_box ::placeholder{
 	height: 100%;
 }
 
+/* Colors of the Pages */
 #Home {background-color: #CABFAB;}
 #Artists {background-color: #CABFAB;}
 #Artworks {background-color: #CABFAB;}
@@ -108,6 +112,7 @@ nav .search_box ::placeholder{
 #Profile {background-color: #CABFAB;}
 #About {background-color: #CABFAB;}
 
+/* Home Page */
 section{
 	min-height: 100vh;
 	width: 100%;
@@ -167,6 +172,7 @@ section{
 	word-spacing: 2px;
 }
 
+/* Artists Page */
 .artists{
 	background-color: #CABFAB;
 	overflow: hidden;
@@ -213,6 +219,7 @@ section{
 	}
 }
 
+/* Artworks Page */
 .artworks{
 	background-color: #CABFAB;
 	overflow: hidden;
@@ -257,6 +264,7 @@ section{
 	}
 }
 
+/* Exhibitions Page */
 .exhibitions{
 	background-color: #CABFAB;
 	padding: 3% 1% 5% 1%;
@@ -281,6 +289,7 @@ section{
 	width: 95%;
 }
 
+/* Collections Page */
 .collections{
 	background-color: #CABFAB;
 	padding: 3% 0 2% 0;
@@ -328,6 +337,7 @@ section{
 	width: 100%;
 }
 
+/* Learn Page */
 .learn{
 	align-items: center;
 	display: flex;
@@ -347,6 +357,7 @@ section{
 	font-size: 20px;
 }
 
+/* Profile Page */
 .profile{
 	align-items: center;
 	display: flex;
@@ -437,6 +448,7 @@ section{
 	color: #ffffff;
 }
 
+/* About Page */
 .about{
 	align-items: center;
 	display: flex;

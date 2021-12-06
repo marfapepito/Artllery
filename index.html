@@ -9,15 +9,14 @@
 
 	<nav>
 	<ol>
-<!--		<input type="image" src="images/logo.png" onclick="openPage('Home')">-->
-		<a class="tabtitle " onclick="openPage('Home')"> Artllery </a>
-		<button class="tablink" onclick="openPage('Artists', this, '#ffffff', )">Artists</button>
-		<button class="tablink" onclick="openPage('Artworks', this, '#ffffff')">Artworks</button>
-		<button class="tablink" onclick="openPage('Exhibitions', this, '#ffffff')">Exhibitions</button>
-		<button class="tablink" onclick="openPage('Collections', this, '#ffffff')">Collections</button>
-		<button class="tablink" onclick="openPage('Learn', this, '#ffffff')">Learn</button>
-		<button class="tablink" onclick="openPage('Profile', this, '#ffffff')">Profile</button>
-		<button class="tablink" onclick="openPage('About', this, '#ffffff')">About</button>
+		<a class="tabtitle" onclick="openPage('Home')"> Artllery </a>
+		<button class="tablink" onclick="openPage('Artists', this, '#ff6961', )">Artists</button>
+		<button class="tablink" onclick="openPage('Artworks', this, '#ff6961')">Artworks</button>
+		<button class="tablink" onclick="openPage('Exhibitions', this, '#ff6961')">Exhibitions</button>
+		<button class="tablink" onclick="openPage('Collections', this, '#ff6961')">Collections</button>
+		<button class="tablink" onclick="openPage('Learn', this, '#ff6961')">Learn</button>
+		<button class="tablink" onclick="openPage('Profile', this, '#ff6961')">Profile</button>
+		<button class="tablink" onclick="openPage('About', this, '#ff6961')">About</button>
 		<div class="search_box">
 			<input type="search" placeholder="Search here"></input>
 			<span class="fa fa-search"></span>
@@ -334,7 +333,8 @@
 
 		  for (i = 0; i < tabcontent.length; i++){
 			tabcontent[i].style.display = "none";
-		}
+		  }
+
 			for (i = 0; i < tabhome.length; i++){
 				tabhome[i].style.display = "none";
 			}
@@ -346,6 +346,7 @@
 		  if(pageName != "home"){
 			  elmnt.style.backgroundColor = color;
 		  }
+		  
 		}
 
 		function onclickAlert(){

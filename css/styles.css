@@ -22,7 +22,7 @@ nav{
 	position: sticky;
 	top: 0;
 	text-align: right;
-	padding: .5% 3% .5% 0%;
+	padding: 0% 3% .5% 0%;
 	background-color: #ffffff;
 }
 
@@ -445,4 +445,8 @@ h1{
 	nav{
 		display: block;
 	}
+}
+
+.about-page{
+	padding: 20px;
 }

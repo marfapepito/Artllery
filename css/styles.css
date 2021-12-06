@@ -179,6 +179,7 @@ section{
 	box-sizing: border-box;
 	border: 8px solid #aec5d8;
 	box-shadow: 5px 10px 18px #888888;
+	border-color: #ffffff;
 }
 
 .artists ul li img{
@@ -221,6 +222,7 @@ section{
 	margin: 40px 20px 80px 40px;
 	box-sizing: border-box;
 	box-shadow: 5px 10px 18px #888888;
+	border-color: #ffffff;
 }
 
 .artworks ul li img{

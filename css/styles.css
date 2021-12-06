@@ -94,6 +94,7 @@ nav .search_box ::placeholder{
 #Artworks {background-color: #ffffff;}
 #Exhibitions {background-color: #ffffff;}
 #Collections {background-color: #ffffff;}
+#Learn {background-color: #ffffff;}
 #Profile {background-color: #ffffff;}
 #About {background-color: #ffffff;}
 
@@ -319,6 +320,17 @@ section{
 	width: 100%;
 }
 
+.learn{
+	display: flex;
+	align-items: center;
+	padding: 3% 10% 0 10%;
+}
+
+.learn img{
+	padding-right: 4%;
+	cursor: pointer;
+}
+
 .profile{
 	width: 90%;
 	margin: 0;
@@ -410,34 +422,14 @@ section{
 }
 
 .about{
-	position: absolute;
-	top: 72%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 80%;
 	display: flex;
-	padding: 40px 0 30px 0;
+	align-items: center;
+	padding: 3% 10% 0 10%;
 }
 
-.about .imgBx{
-	width: auto;
-	flex: 0 0 150px;
-}
-
-.about .desca{
-	padding-left: 20px;
-}
-
-.about .desca h2{
-	margin: 0;
-	padding-left: 4%;
-	font-size: 50px;
-}
-
-.about .desca ul{
-	margin: 0;
-	padding: 5% 0 0 5%;
-	font-size: 30px;
+.about img{
+	padding-right: 4%;
+	cursor: pointer;
 }
 
 h1{

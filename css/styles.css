@@ -21,9 +21,8 @@ nav{
 	width: 100%;
 	position: sticky;
 	top: 0;
-	justify-content: space-between;
 	text-align: right;
-	padding: .5% 3% .5% 3%;
+	padding: .5% 3% .5% 0%;
 	background-color: #ffffff;
 }
 
@@ -34,10 +33,9 @@ logo .img{
 nav ol{
 	display: flex;
 	list-style: none;
-	margin: auto 0;
 }
 
-nav .search_box{
+ol .search_box{
 	display: flex;
 	margin: auto 0;
 	height: 35px;
@@ -52,7 +50,8 @@ nav .search_box input{
 	height: 100%;
 	padding: 0 10px;
 	font-size: 20px;
-	width: 60%;
+	width: 180px;
+	margin-left: 5%;
 	border-radius: 8px;
 }
 
@@ -72,9 +71,14 @@ nav .search_box ::placeholder{
 	width: 50%;
 	transition: all 0.3s ease 0s;
 }
+.tabtitle:hover {
+	color:#ffffff;
+	background-color: #ff6961;
+}
 
 .tablink:hover {
-	color:#000000;
+	color:#ffffff;
+	background-color: #ff6961;
 }
 
 .tabcontent {
@@ -434,4 +438,25 @@ section{
 
 h1{
 	font-family: intro_script_demomedium;
+}
+
+.tabtitle{
+	font-family: intro_script_demomedium;
+	font-weight: bold;
+	background-color: #ffffff;
+	color: #ff6961;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 3% 3%;
+	font-size: 40px;
+	width: 50%;
+	transition: all 0.3s ease 0s;
+}
+
+@media screen and (max-width: 600px) {
+	nav{
+		display: block;
+	}
 }
